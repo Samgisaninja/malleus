@@ -31,7 +31,7 @@ static void (*_logos_orig$_ungrouped$SBDashBoardQuickActionsView$handleButtonTou
 
 static void _logos_method$_ungrouped$SBDashBoardQuickActionsView$handleButtonTouchEnded$(_LOGOS_SELF_TYPE_NORMAL SBDashBoardQuickActionsView* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, id arg1){
   SystemSoundID sounds[10];
-  NSString *soundPath = [[NSBundle bundleWithPath:@"/System/Library/Audio/UISounds"] pathForResource:@"Tink" ofType:@"caf"];
+  NSString *soundPath = [[NSBundle bundleWithPath:@"/System/Library/Audio/UISounds"] pathForResource:@"wheels_of_time" ofType:@"caf"];
   CFURLRef soundURL = (__bridge CFURLRef)[NSURL fileURLWithPath:soundPath];
   AudioServicesCreateSystemSoundID(soundURL, &sounds[0]);
   AudioServicesPlaySystemSound(sounds[0]);
@@ -39,7 +39,7 @@ static void _logos_method$_ungrouped$SBDashBoardQuickActionsView$handleButtonTou
 }
 static void _logos_method$_ungrouped$SBDashBoardQuickActionsView$handleButtonTouchBegan$(_LOGOS_SELF_TYPE_NORMAL SBDashBoardQuickActionsView* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, id arg1){
   SystemSoundID sounds[10];
-  NSString *soundPath = [[NSBundle bundleWithPath:@"/System/Library/Audio/UISounds"] pathForResource:@"Tink" ofType:@"caf"];
+  NSString *soundPath = [[NSBundle bundleWithPath:@"/System/Library/Audio/UISounds"] pathForResource:@"wheels_of_time" ofType:@"caf"];
   CFURLRef soundURL = (__bridge CFURLRef)[NSURL fileURLWithPath:soundPath];
   AudioServicesCreateSystemSoundID(soundURL, &sounds[0]);
   AudioServicesPlaySystemSound(sounds[0]);
