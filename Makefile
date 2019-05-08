@@ -1,5 +1,6 @@
 include $(THEOS)/makefiles/common.mk
 
+ARCHS = armv7 armv7s arm64 arm64e
 TWEAK_NAME = malleus
 malleus_FILES = Tweak.xm
 

@@ -1,9 +1,9 @@
 Package: com.samgisaninja.malleus
 Name: malleus
 Depends: mobilesubstrate, firmware (<= 12.0.1)
-Version: 1.1
+Version: 1.1.1
 Architecture: iphoneos-arm
-Description: iOS 12.1 3D Touch sounds 
+Description: iOS 12.1 3D Touch sounds
 Maintainer: Sam Gardner
 Author: Sam Gardner
 Section: Tweaks
